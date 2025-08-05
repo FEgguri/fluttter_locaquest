@@ -24,36 +24,7 @@ Firebase Firestore를 활용한 리뷰 저장, Riverpod 상태관리를 기반�
 
 ## 📁 폴더 구조
 
-lib/
-├── common/ # 공통 위젯, 앱바, 상수
-│ ├── app_bar.dart
-│ └── constants.dart
-
-├── models/ # 데이터 모델 클래스
-│ ├── location.dart # 검색된 지역 정보 모델
-│ └── review.dart # 리뷰 데이터 모델
-
-├── repositories/ # 데이터 저장소 (로컬/원격)
-│ ├── location_repository.dart
-│ └── review_repository.dart
-
-├── services/ # 외부 API 호출 로직
-│ └── naver_api_service.dart
-
-├── viewmodels/ # Riverpod 기반 상태 관리
-│ ├── location_view_model.dart
-│ └── review_view_model.dart
-
-├── views/ # 주요 화면
-│ ├── home_page.dart # 지역 검색 화면
-│ └── review_page.dart # 리뷰 조회/작성 화면
-
-├── widgets/ # 재사용 가능한 UI 컴포넌트
-│ ├── empty_text.dart
-│ └── location_tile.dart
-│
-├── firebase_options.dart # flutterfire configure 생성 파일
-└── main.dart # 앱 진입점
+<pre><code>```plaintext lib/ ├── common/ # 공통 위젯, 앱바, 상수 │ ├── app_bar.dart │ └── constants.dart │ ├── models/ # 데이터 모델 클래스 │ ├── location.dart # 검색된 지역 정보 모델 │ └── review.dart # 리뷰 데이터 모델 │ ├── repositories/ # 데이터 저장소 (로컬/원격) │ ├── location_repository.dart │ └── review_repository.dart │ ├── services/ # 외부 API 호출 로직 │ └── naver_api_service.dart │ ├── viewmodels/ # Riverpod 기반 상태 관리 │ ├── location_view_model.dart │ └── review_view_model.dart │ ├── views/ # 주요 화면 │ ├── home_page.dart # 지역 검색 화면 │ └── review_page.dart # 리뷰 조회/작성 화면 │ ├── widgets/ # 재사용 가능한 UI 컴포넌트 │ ├── empty_text.dart │ └── location_tile.dart │ ├── firebase_options.dart # flutterfire configure 생성 파일 └── main.dart # 앱 진입점 ``` </code></pre>
 
 ---
 
