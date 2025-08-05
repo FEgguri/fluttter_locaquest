@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fluttter_locaquest/common/app_bar.dart';
-import '../viewmodels/review_view_model.dart';
+import 'package:fluttter_locaquest/viewmodels/review_view_model.dart';
 
 class ReviewPage extends ConsumerStatefulWidget {
   final double mapX;

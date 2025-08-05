@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:fluttter_locaquest/models/location.dart';
 import 'package:fluttter_locaquest/views/review_page.dart';
-import '../models/location.dart';
 
 class LocationTile extends StatelessWidget {
   final Location location;
