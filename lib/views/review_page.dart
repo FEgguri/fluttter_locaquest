@@ -35,6 +35,9 @@ class _ReviewPageState extends ConsumerState<ReviewPage> {
       appBar: customAppBar(title: '리뷰'),
       body: Column(
         children: [
+          SizedBox(
+            height: 15,
+          ),
           Expanded(
             child: reviews.when(
               data: (list) => list.isEmpty
@@ -71,7 +74,15 @@ class _ReviewPageState extends ConsumerState<ReviewPage> {
             padding: const EdgeInsets.all(8.0),
             child: Row(
               children: [
-                Expanded(child: TextField(controller: _controller)),
+                Expanded(
+                    child: TextField(
+                  controller: _controller,
+                  decoration: const InputDecoration(
+                    hintText: '리뷰를 입력하세요',
+                    contentPadding: EdgeInsets.all(10),
+                    border: OutlineInputBorder(),
+                  ),
+                )),
                 IconButton(
                   icon: const Icon(Icons.send),
                   onPressed: () async {
