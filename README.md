@@ -38,7 +38,7 @@ lib/
 
 ├── models/                # 데이터 모델 클래스
 │   ├── location.dart      # 검색된 지역 정보 모델
-│   └── review\.dart        # 리뷰 데이터 모델
+│   └── review.dart        # 리뷰 데이터 모델
 
 ├── repositories/          # 데이터 저장소 (로컬/원격)
 │   ├── location\_repository.dart
@@ -62,7 +62,7 @@ lib/
 ├── firebase\_options.dart  # flutterfire configure 생성 파일
 └── main.dart              # 앱 진입점
 
-````
+```
 
 ---
 
