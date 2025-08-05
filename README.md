@@ -1,9 +1,4 @@
-아래는 네 프로젝트 구조를 기반으로 작성한 `README.md` 예시야.
-Flutter, Firebase, Riverpod 기반 앱 개발자나 협업자 입장에서 이해하기 쉽게 설명했어.
 
----
-
-```md
 # Flutter LocaQuest
 
 Flutter 기반 위치 검색 및 리뷰 저장/조회 애플리케이션
@@ -29,40 +24,36 @@ Firebase Firestore를 활용한 리뷰 저장, Riverpod 상태관리를 기반�
 
 ## 📁 폴더 구조
 
-```
-
 lib/
-├── common/                # 공통 위젯, 앱바, 상수
-│   ├── app\_bar.dart
-│   └── constants.dart
+├── common/ # 공통 위젯, 앱바, 상수
+│ ├── app_bar.dart
+│ └── constants.dart
 
-├── models/                # 데이터 모델 클래스
-│   ├── location.dart      # 검색된 지역 정보 모델
-│   └── review.dart        # 리뷰 데이터 모델
+├── models/ # 데이터 모델 클래스
+│ ├── location.dart # 검색된 지역 정보 모델
+│ └── review.dart # 리뷰 데이터 모델
 
-├── repositories/          # 데이터 저장소 (로컬/원격)
-│   ├── location\_repository.dart
-│   └── review\_repository.dart
+├── repositories/ # 데이터 저장소 (로컬/원격)
+│ ├── location_repository.dart
+│ └── review_repository.dart
 
-├── services/              # 외부 API 호출 로직
-│   └── naver\_api\_service.dart
+├── services/ # 외부 API 호출 로직
+│ └── naver_api_service.dart
 
-├── viewmodels/            # Riverpod 기반 상태 관리
-│   ├── location\_view\_model.dart
-│   └── review\_view\_model.dart
+├── viewmodels/ # Riverpod 기반 상태 관리
+│ ├── location_view_model.dart
+│ └── review_view_model.dart
 
-├── views/                 # 주요 화면
-│   ├── home\_page.dart     # 지역 검색 화면
-│   └── review\_page.dart   # 리뷰 조회/작성 화면
+├── views/ # 주요 화면
+│ ├── home_page.dart # 지역 검색 화면
+│ └── review_page.dart # 리뷰 조회/작성 화면
 
-├── widgets/               # 재사용 가능한 UI 컴포넌트
-│   ├── empty\_text.dart
-│   └── location\_tile.dart
-│   
-├── firebase\_options.dart  # flutterfire configure 생성 파일
-└── main.dart              # 앱 진입점
-
-```
+├── widgets/ # 재사용 가능한 UI 컴포넌트
+│ ├── empty_text.dart
+│ └── location_tile.dart
+│
+├── firebase_options.dart # flutterfire configure 생성 파일
+└── main.dart # 앱 진입점
 
 ---
 
@@ -94,5 +85,5 @@ lib/
 * [Riverpod Docs](https://riverpod.dev/)
 * [네이버 검색 API](https://developers.naver.com/docs/search/local/)
 
-```
+
 
