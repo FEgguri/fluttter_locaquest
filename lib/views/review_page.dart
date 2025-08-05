@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:fluttter_locaquest/common/app_bar.dart';
 import '../viewmodels/review_view_model.dart';
 
 class ReviewPage extends ConsumerStatefulWidget {
@@ -31,7 +32,7 @@ class _ReviewPageState extends ConsumerState<ReviewPage> {
     final reviews = ref.watch(reviewProvider);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('리뷰')),
+      appBar: customAppBar(title: '리뷰'),
       body: Column(
         children: [
           Expanded(
