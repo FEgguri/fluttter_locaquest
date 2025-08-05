@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63274831923",
+    "project_id": "locaquest-f9cee",
+    "storage_bucket": "locaquest-f9cee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63274831923:android:753c39c226eeec85141346",
+        "android_client_info": {
+          "package_name": "com.example.fluttter_locaquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBttgU9w-nlR-DTsoRVozGXad7Uv818f4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
